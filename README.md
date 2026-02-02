@@ -1,6 +1,6 @@
-#MemLabs Lab 1 – Beginner’s Luck
-#Memory Forensics Case Study (DFIR)
-##Overview
+# MemLabs Lab 1 – Beginner’s Luck
+## Memory Forensics Case Study (DFIR)
+### Overview
 
 This case study documents my investigation of MemLabs Lab 1, a beginner-level memory forensics challenge designed to simulate a real-world incident involving a Windows system crash.
 
@@ -18,7 +18,7 @@ Only a memory image was provided — no disk access.
 
 The investigation was performed entirely through volatile memory analysis.
 
-#Goals
+### Goals
 
 Validate memory dump integrity
 
@@ -32,7 +32,7 @@ Demonstrate forensic methodology
 
 Integrate AI safely to accelerate analysis
 
-#Tools Used
+### Tools Used
 -Core DFIR
 
 -Volatility 3
@@ -45,7 +45,7 @@ Integrate AI safely to accelerate analysis
 
 -WinRAR / KeePass (artifact access)
 
-#Supporting Utilities
+### Supporting Utilities
 
 -strings
 
@@ -53,7 +53,7 @@ Integrate AI safely to accelerate analysis
 
 -hash utilities
 
-#AI Assistance
+### AI Assistance
 
 Gemini CLI (“Athena”) — used as a supervised forensic assistant
 
@@ -70,13 +70,13 @@ It was used strictly for:
 
 All pivots and conclusions were analyst-driven.
 
-#Environment Identified
+### Environment Identified
 
 -OS: Windows 7 SP1 x64
 
 -Single CPU system
 
-#User accounts discovered:
+### User accounts discovered:
 
 -Alissa Simpson
 
@@ -84,7 +84,7 @@ All pivots and conclusions were analyst-driven.
 
 Memory integrity verified via MD5 before analysis.
 
-#Investigation Methodology
+### Investigation Methodology
 1. Initial Profiling
 
 Using windows.info:
@@ -191,7 +191,7 @@ AI did not replace forensic reasoning — it enhanced analyst efficiency.
 
 This reflects real-world DFIR workflows where AI supports humans, not replaces them.
 
-#Results
+### Results
 
 All three flags recovered using memory-only analysis:
 
@@ -201,7 +201,7 @@ All three flags recovered using memory-only analysis:
 
 -Flag 3: Password-protected RAR (NTLM hash pivot)
 
-#Lessons Learned
+### Lessons Learned
 
 -Memory holds far more than most attackers expect.
 
@@ -215,7 +215,7 @@ All three flags recovered using memory-only analysis:
 
 -Forensics is about correlation, not tools.
 
-#Next Steps
+### Next Steps
 
 This lab is part of a multi-stage DFIR learning series.
 
@@ -229,7 +229,7 @@ Moving forward to MemLabs Lab 2, which increases complexity by introducing:
 
 -Multi-source correlation
 
-#Author
+### Author
 
 Geoffrey Muriuki Mwangi
 DFIR / SOC Analyst
