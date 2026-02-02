@@ -234,3 +234,11 @@ Moving forward to MemLabs Lab 2, which increases complexity by introducing:
 Geoffrey Muriuki Mwangi
 DFIR / SOC Analyst
 Hands-on memory forensics practitioner
+
+<img width="1259" height="614" alt="Screenshot 2026-01-26 180524" src="https://github.com/user-attachments/assets/f1456ef8-8c6c-49e4-9753-bf2e09defa2f" />
+
+<img width="1259" height="470" alt="Screenshot 2026-01-26 175531" src="https://github.com/user-attachments/assets/1df46c78-9881-4c2f-bca7-be129e169c6b" />
+
+<img width="1256" height="615" alt="Screenshot 2026-01-26 181333" src="https://github.com/user-attachments/assets/65ba023b-3e8d-4461-8324-f19f06933352" />
+
+
